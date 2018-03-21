@@ -1,6 +1,6 @@
 package ee.puik.harjutused;
 
-public class PrintPrimes {
+public class PrintPrimes { 
 	
 	public void printPrimes (int count, int number) {
 		IsPrime primeMachine = new IsPrime();
