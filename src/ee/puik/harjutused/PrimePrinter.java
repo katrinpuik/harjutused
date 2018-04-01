@@ -2,7 +2,8 @@ package ee.puik.harjutused;
 
 public class PrimePrinter {
 
-    public void printPrimes(int numberOfPrimesToPrint, int number) {
+    public void printPrimes(int numberOfPrimesToPrint, int startFromNumber) {
+	int number = startFromNumber;
 	PrimeDefinator primeMachine = new PrimeDefinator();
 	int counter = 0;
 	while (counter < numberOfPrimesToPrint) {

@@ -2,10 +2,13 @@ package ee.puik.harjutused;
 
 import java.lang.Math;
 
-public class PrimeDefinator { 
+public class PrimeDefinator {
 
     public boolean isPrime(int number) {
-	if (number > 2 && number % 2 == 0) {
+
+	boolean isEven = number % 2 == 0;
+
+	if (number > 2 && isEven) {
 	    return false;
 	}
 
